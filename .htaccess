@@ -1,0 +1,8 @@
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteRule ^turisticheskaya-viza/?$ turisticheskaya-viza/index.html [L]
+RewriteRule ^rabochaya-viza/?$ rabochaya-viza/index.html [L]
+RewriteRule ^delovaya-viza/?$ delovaya-viza/index.html [L]
+RewriteRule ^elektronnaya-viza/?$ elektronnaya-viza/index.html [L]
+RewriteRule ^test/?$ test/index.html [L]
